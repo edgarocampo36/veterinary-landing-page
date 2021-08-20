@@ -1,0 +1,25 @@
+$primary: #ffc800;
+$warning: #ecb500;
+$secondary: #00c1cd;
+$light: #fffefe;
+$dark: #303130;
+
+/* .nav-item a {
+  color: $light;
+} */
+
+$input-placeholder-color: $light;
+$input-font-size: 1.25rem;
+
+.article h1 {
+  font-size: 4rem;
+}
+
+.pug {
+  background-image: url(../static/img/bulldog.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
